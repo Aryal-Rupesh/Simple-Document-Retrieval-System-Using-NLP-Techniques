@@ -1,0 +1,13 @@
+prefix=/home/rupesh/RupeshProject/AmodSir/nlp_env
+exec_prefix=/home/rupesh/RupeshProject/AmodSir/nlp_env
+libdir=/home/rupesh/RupeshProject/AmodSir/nlp_env/lib
+sharedlibdir=/home/rupesh/RupeshProject/AmodSir/nlp_env/lib
+includedir=/home/rupesh/RupeshProject/AmodSir/nlp_env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

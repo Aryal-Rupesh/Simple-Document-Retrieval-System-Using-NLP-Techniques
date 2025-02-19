@@ -1,0 +1,11 @@
+prefix=/home/rupesh/RupeshProject/AmodSir/nlp_env
+exec_prefix=/home/rupesh/RupeshProject/AmodSir/nlp_env
+libdir=/home/rupesh/RupeshProject/AmodSir/nlp_env/lib
+includedir=/home/rupesh/RupeshProject/AmodSir/nlp_env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
